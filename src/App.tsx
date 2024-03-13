@@ -1,4 +1,4 @@
-import { ErrorComponent, GitHubBanner, Refine } from "@refinedev/core";
+import { ErrorComponent, Refine } from "@refinedev/core";
 import { DevtoolsPanel, DevtoolsProvider } from "@refinedev/devtools";
 import { RefineKbar, RefineKbarProvider } from "@refinedev/kbar";
 
@@ -27,7 +27,7 @@ import { Layout } from "./components/layout";
 function App() {
   return (
     <BrowserRouter>
-      <GitHubBanner />
+     
       <RefineKbarProvider>
         <DevtoolsProvider>
           <Refine
