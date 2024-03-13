@@ -1,4 +1,4 @@
-import { Button } from "primereact/Button";
+import { Button } from "primereact/button";
 
 export const Dashboard = () => {
   return (
